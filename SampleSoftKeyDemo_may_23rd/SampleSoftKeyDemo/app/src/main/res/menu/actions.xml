@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lsk"
+        android:title="Notify Full Screen" />
+    <item
+        android:id="@+id/rsk"
+        android:title="Update RSK" />
+    <item
+        android:id="@+id/csk"
+        android:title="Update CSK" />
+    <item
+        android:id="@+id/all"
+        android:title="Update all" />
+    <item
+        android:id="@+id/blank"
+        android:title="Blank" />
+    <item
+        android:id="@+id/standard"
+        android:title="Default" />
+</menu>

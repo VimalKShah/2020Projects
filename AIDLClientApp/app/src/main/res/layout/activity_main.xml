@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:hint="Enter first number" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:hint="Enter Second number" />
+
+    <Button
+        android:id="@+id/Addition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addition"/>
+
+    <Button
+        android:id="@+id/place_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Call"/>
+
+    <Button
+        android:id="@+id/printText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Print Text" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
